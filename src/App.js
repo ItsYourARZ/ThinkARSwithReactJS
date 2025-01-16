@@ -16,42 +16,42 @@ const App = () => {
         <a href="#" className="logo"></a>
         <nav>
           <a
-            href="#home"
+            
             className={activeLink === "Home" ? "active" : ""}
             onClick={() => handleLinkClick("Home")}
           >
             Home
           </a>
           <a
-            href="#home"
+            
             className={activeLink === "Services" ? "active" : ""}
             onClick={() => handleLinkClick("Services")}
           >
             Services
           </a>
           <a
-            href="#home"
+            
             className={activeLink === "Skills" ? "active" : ""}
             onClick={() => handleLinkClick("Skills")}
           >
             Skills
           </a>
           <a
-            href="#home"
+            
             className={activeLink === "Education" ? "active" : ""}
             onClick={() => handleLinkClick("Education")}
           >
             Education
           </a>
           <a
-            href="#home"
+            
             className={activeLink === "Experience" ? "active" : ""}
             onClick={() => handleLinkClick("Experience")}
           >
             Experience
           </a>
           <a
-            href="#home"
+            
             className={activeLink === "Contact" ? "active" : ""}
             onClick={() => handleLinkClick("Contact")}
           >
