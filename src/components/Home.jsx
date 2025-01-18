@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profileImage from "../assets/images/profile.jpg"; // Put your image in the assets folder
+import profileImage from "https://avatars.githubusercontent.com/u/187540760?v=4"; // Put your image in the assets folder
 
 const Home = () => {
   return (
