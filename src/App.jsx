@@ -18,9 +18,6 @@ function App() {
         </nav>
       </header>
       <section className="home">
-        <div className="home-img">
-          <img src="https://avatars.githubusercontent.com/u/187540760?v=4" alt="Anirudh" />
-        </div>
         <div className="home-content">
           <h1>Hi, I'm <span>Anirudh</span></h1>
           <h3 className="typing-text">I'm a <span></span></h3>
