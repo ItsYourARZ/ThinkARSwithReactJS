@@ -18,7 +18,7 @@ function App() {
         </nav>
       </header>
       <section className="home">
-        <div className="home-content">
+        <div className="home-content" text-align="center">
           <h1>Hi, I'm <span>Anirudh</span></h1>
           <h3 className="typing-text">I'm a <span></span></h3>
           <p>Currently in Development</p>
