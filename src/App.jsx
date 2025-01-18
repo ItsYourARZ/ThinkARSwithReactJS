@@ -23,7 +23,7 @@ function App() {
         </div>
         <div className="home-content">
           <h1>Hi, I'm <span>Anirudh</span></h1>
-          <h3 className="typing-text"><span></span></h3>
+          <h3 className="typing-text">I'm a <span></span></h3>
           <p>Currently in Development</p>
           <p>I'm a passionate web developer who loves creating beautiful and functional websites.</p>
           <p>I enjoy working with new technologies.</p>
