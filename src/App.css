@@ -175,7 +175,7 @@ span{
 .typing-text span::before{
     content: "Developer";
     color: #584bb7;
-    animation: words 15s infinite;
+    animation: words 20s infinite;
 }
 .typing-text span::after{
     content: "";
