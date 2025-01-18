@@ -370,3 +370,56 @@ span{
     "CRSV" 1,
     "SHRP" 0;
 }
+
+
+
+
+/** New Changes */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.skill-card {
+  background-color: #2d2d2d;
+  width: 22%;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.skill-card:hover {
+  background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-card {
+      width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill-card {
+      width: 100%;
+  }
+}
