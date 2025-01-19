@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css'; // This will include your styles
 
 function App() {
-  const [typingText, setTypingText] = useState('Web Developer');
-
   return (
     <div className="App">
       <header>
@@ -18,7 +16,7 @@ function App() {
         </nav>
       </header>
       <section className="home">
-        <div className="home-content" text-align="center">
+        <div className="home-content">
           <h1>Hi, I'm <span>Anirudh</span></h1>
           <h3 className="typing-text">I'm a <span></span></h3>
           <p>Currently in Development</p>
