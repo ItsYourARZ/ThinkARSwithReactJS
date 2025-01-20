@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css'; // This will include your styles
 
-function ThinkARS() {
+function App() {
   return (
-    <div className="ThinkARS">
+    <div className="App">
       <header>
         <a href="#" className="logo"></a>
         <nav>
