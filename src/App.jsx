@@ -6,14 +6,12 @@ function App() {
     <div className="App">
       <header>
         <a href="#" className="logo"></a>
-        <nav>
           <a href="#" className="active">Home</a>
           <a href="#">Services</a>
           <a href="#">Skills</a>
           <a href="#">Education</a>
           <a href="#">Experience</a>
           <a href="#">Contact</a>
-        </nav>
       </header>
       <section className="home">
         <div className="home-content">
